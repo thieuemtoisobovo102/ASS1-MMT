@@ -1,7 +1,7 @@
 # dictionary.py
 from .dictionary import CaseInsensitiveDict   
 
-RESP_TEMPLATES = CaseInsensitiveDict({
+RESPONSE_CASES = CaseInsensitiveDict({
     # ---- Success ----
     "api_ok": {
         "status": "200 OK",
